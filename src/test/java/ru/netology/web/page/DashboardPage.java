@@ -33,7 +33,7 @@ public class DashboardPage {
     }
 
     public TransferPage selectCardToTransfer(DataHelper.CardInfo cardInfo) {
-        cards.findBy(attribute("[data-test-id]", cardInfo.getTestId())).$("button").click();
+        cards.findBy(attribute("data-test-id", cardInfo.getTestId())).$("button").click();
         return new TransferPage();
     }
 

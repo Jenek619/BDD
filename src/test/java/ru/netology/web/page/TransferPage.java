@@ -14,7 +14,7 @@ public class TransferPage {
 
     private final SelenideElement amountInput = $("[data-test-id=amount] input");
     private final SelenideElement fromInput = $("[data-test-id=from] input");
-    private final SelenideElement transferButton = $("[data-test-id=action-deposit]");
+    private final SelenideElement transferButton = $("[data-test-id=action-transfer]");
     private final SelenideElement transferHead = $(byText("Пополнение карты"));
     private final SelenideElement errorMessage = $("[data-test-id=error-notification]");
 
